@@ -1,0 +1,12 @@
+{
+	"version": "2.1.5",
+	"date": "2026-09-28",
+	"windows": {
+		"file": "my-heritage-tree-2.1.5-Windows.exe",
+		"bytes": 33901056
+	},
+	"macos": {
+		"file": "my-heritage-tree-2.1.5-macOS.dmg",
+		"bytes": 19652829
+	}
+}

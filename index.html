@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Heritage Tree</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; padding: 4rem 1.5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5efe3; color: #2b251d; }
+  main { max-width: 40rem; margin: 0 auto; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; }
+  .version { color: #6f5409; font-size: .9rem; margin: 0 0 2rem; }
+  p { line-height: 1.5; color: #4a4038; }
+  .buttons { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.5rem 0; }
+  a.button { display: inline-block; padding: .8rem 1.2rem; border-radius: .6rem; background: #9a7716; color: #fffcf5; text-decoration: none; font-weight: 600; }
+  a.button span { display: block; font-weight: 400; font-size: .8rem; opacity: .85; }
+  small { color: #7a6f60; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0e0d0c; color: #ece3d4; } p { color: #bfae8e; } .version { color: #e3c76b; } a.button { background: #c9a227; color: #1c1917; } small { color: #8a7f70; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>My Heritage Tree</h1>
+  <p class="version">Version 2.1.5 · 2026-09-28</p>
+  <p>A local-first desktop app for a family archive: draw each family as a tree, and keep everything about a person — facts, links, notes, labels and documents — in plain files on your own machine.</p>
+  <div class="buttons">
+    <a class="button" href="downloads/my-heritage-tree-2.1.5-macOS.dmg">Download for macOS<span>Apple silicon · 19 MB</span></a>
+    <a class="button" href="downloads/my-heritage-tree-2.1.5-Windows.exe">Download for Windows<span>64-bit · 32 MB</span></a>
+  </div>
+  <p><small>Installed once, the app keeps itself up to date: Settings → Updates.</small></p>
+  <details>
+    <summary><small>The first time on a Mac: "Apple could not verify…"</small></summary>
+    <p><small>Open the disk image, drag <em>My Heritage Tree</em> into <em>Applications</em>, and open it from there. macOS will say it could not verify the app and offer to move it to the Bin — press <em>Done</em> instead, then open <strong>System Settings → Privacy &amp; Security</strong>, scroll down to the line about My Heritage Tree, press <strong>Open Anyway</strong>, and confirm. Once is enough; updates need nothing.</small></p>
+  </details>
+  <details>
+    <summary><small>The first time on Windows: "Windows protected your PC"</small></summary>
+    <p><small>Press <em>More info</em>, then <em>Run anyway</em>. The installer puts the app away, adds a shortcut to the desktop and the Start menu, and shows where everything lives when it is done.</small></p>
+  </details>
+</main>
+</body>
+</html>
